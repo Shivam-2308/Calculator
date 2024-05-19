@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.text-center {
+    text-align: center;
+    margin: 35px 0 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color:rgb(187, 6, 112);;
+    max-width:fit-content;
+    /* min-height: max-content; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 17px ;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 15px 5px #aaaaaa;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+}
+button{
+    padding: 10px;
+    margin:  0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    box-shadow: 5px 5px; 
+}
+button:active {
+    box-shadow: 3px 3px;
+}
+.row{
+    margin: 8px 0;
+    display: block;
+    justify-content: space-around;
+}
+.row :hover{
+    background-color: rgb(43, 226, 58);
+    
+}
+.input{
+    border: 4px solid black;
+    background-color: rgb(231, 199, 199);
+    padding: 15px 10px;
+    height:20px;
+    width: 80%;
+    text-align: right;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: black;
+   font-family: 'Orbitron', sans-serif;
+   border-radius: 10%; 
+}
