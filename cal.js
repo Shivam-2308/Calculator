@@ -1,5 +1,5 @@
 screen=document.getElementById("screen");
-function numKey(x) {
+//function numKey(x) {
     if (!isNaN((x)) || x=='+' || x=='÷' || x=='×' || x=='-' || x=='.') {
         if (x=='×') {
             x='*';
